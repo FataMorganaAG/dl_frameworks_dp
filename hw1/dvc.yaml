@@ -1,0 +1,17 @@
+stages:
+  cleaning_data:
+    cmd: dvc/data
+    deps:
+    - dvc/data/Ethos_Dataset_Binary.csv
+    outs:
+    - dvc/data/Ethos_Dataset_Binary.csv
+  training_model:
+    cmd: dvc/model_params
+    outs:
+    - dvc/model_params/baseline_model_params.json
+    - dvc/model_params/tuned_model_params.json
+  saving_model:
+    cmd: dvc/models
+    outs:
+    - dvc/models/LGBMC_baseline_model.pkl
+    - dvc/models/LGBMC_tuned_model.pkl

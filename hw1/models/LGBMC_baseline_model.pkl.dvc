@@ -1,0 +1,4 @@
+outs:
+- md5: 49bfe6d710087d04e635f01750539c1a
+  size: 291621
+  path: LGBMC_baseline_model.pkl

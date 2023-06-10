@@ -1,0 +1,4 @@
+outs:
+- md5: 035c7e4f17668b498500cd09ac56915c
+  size: 1069567
+  path: LGBMC_tuned_model.pkl
