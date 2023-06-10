@@ -5,27 +5,27 @@
 Project Organization
 ------------
 
-    ├── .dvc
+    ├── .dvc                               <- dvc folder
     │
-    ├── data                                     <- directory for data
+    ├── data                               <- directory for data
     │   ├── data_prep.ipynb                <- notebook for data preparation
     │   └── Ethos_Dataset_Binary.csv.dvc   <- dvc file for data
     │
-    ├── model_params                             <- directory for parametrs of models
+    ├── model_params                       <- directory for parametrs of models
     │   ├── baseline_model_params.json.dvc <- dvc file for parametrs of base model
     │   └── tuned_model_params.json.dvc    <- dvc file for parametrs of tuned model
     │
-    ├── models                                   <- directory for models
+    ├── models                             <- directory for models
     │   ├── LGBMC_baseline_model.pkl.dvc   <- dvc file of base model
     │   └── LGBMC_tuned_model.pkl.dvc      <- dvc file of tuned model
     │
-    ├── hw1.ipynb         <- notebook with model optimization process
+    ├── hw1.ipynb                          <- notebook with model optimization process
     │
-    ├── README.md          <- The README - report
+    ├── README.md                          <- The README - report
     │
-    ├── summary_report.txt          <- report on models
+    ├── summary_report.txt                 <- report on models
     │
-    └── requirements.txt   <- The requirements file for reproducing the analysis environment
+    └── requirements.txt                   <- The requirements file for reproducing the analysis environment
 
 --------
 
