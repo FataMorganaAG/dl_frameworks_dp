@@ -1,5 +1,5 @@
 # dl_frameworks_dp
-==============================
+
 Домашнее задание 2.
 
 Код реализован на **pandas**.
@@ -29,7 +29,7 @@ Project Organization
 
 --------
 ### Sentiment Task
-<p align="center"><img src="./pics/emotions.png" alt="detection" width="50%"></p>
+<p align="center"><img src="./pics/emotions.png" alt="detection" width="70%"></p>
 
 ### Genre + Emotions Task
-<p align="center"><img src="./pics/stats.png" alt="detection" width="50%"></p>
+<p align="center"><img src="./pics/stats.png" alt="detection" width="70%"></p>
